@@ -7,7 +7,8 @@ Display - TFT ILI9341
 *The microcontroller used outputs 5V signals, make sure to use proper level shifters to shift down 5V's to 3.3V, otherwise if your board outputs 3.3V signals you may proceed and skip using level shifters*
 Level Shifters - Two are needed to lower output voltages for the display to read in properly
 
-Here is a realized look at the connections (Its a mess! My advice is to instead use a board that outputs 3v3, it heavily reduces the connections needed and work done!
+Here is a realized look at the connections (Its a mess! My advice is to instead use a board that outputs 3v3, it heavily reduces the connections needed and work done!)
+
 ![TwoWayConnections](https://github.com/user-attachments/assets/f6c7f582-084a-46ed-8751-a0d6544c0626)
 
 Since we are using an Arduino Uno WiFi Rev2 board, the supplied code can be run through the Arduino IDE.
